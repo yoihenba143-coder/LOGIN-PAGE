@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #439b40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div.form-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #5fbb4c;
+    position: relative;
+    padding:40px;
+    border-radius:25px;
+    border:1px solid rgb(255, 255, 255);
+    box-shadow:0 20px 40px rgba(0,0,0,0.5);
+    color:white;
+    height: fit-content;
+    width: 500px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background-color: #42c037;
+    border: #000000 solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+div {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.Name {
+    display: block;
+    margin-bottom: 30px;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+}
+.Email {
+    display: block;
+    margin-bottom: 30px;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+}
+.Password {
+    display: block;
+    margin-bottom: 30px;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.options{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:30px;
+      font-size:15px;
+    }
+
+    .remember{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      color:#000000;
+    }
+
+    .forgot{
+      color:#000000;
+      text-decoration:none;
+      font-weight:600;
+    }
+    
+    .login-btn{
+      width:100%;
+      padding:18px;
+      border: 2px solid #000000;
+      border-radius:20px;
+      border-color: #000000;
+      background:linear-gradient(to right,#63ffd3,#62bfff);
+      font-size:18px;
+      font-weight:bold;
+      cursor:pointer;
+      transition:0.3s;
+    }
+    .login-btn:hover{
+      background:linear-gradient(to right,#00ff37,#0ba53e);
+      color: #000000;
+    }
+
+    .toggle-password{   
+         position: absolute;    
+         right: 45px;    
+         top: 60.5%;    
+         transform: translateY(-50%);    
+         cursor: pointer;    
+         font-size: 20px;
+        }
+
+    .toggle-password:hover {
+        color: #2f2592;
+    }
+    .new-btn{
+        font-size:18px;
+        font-weight:bold;
+        cursor:pointer;
+        transition:0.3s;
+        margin-top: 10px;
+        background: none;
+        border: none;
+        color: #000;
+        a{
+            color: #000000;
+        }
+    }
