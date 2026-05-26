@@ -10,47 +10,58 @@
       display:flex;
       justify-content:center;
       align-items:center;
-      background:linear-gradient(135deg,#626b74,#58a9ad);
+      background:linear-gradient(135deg,#a729ac,#9b5f11);
     }
 
     .container{
       width:700px;
-      background:white;
+      background:linear-gradient(135deg,#b87c2f,#d1296ad0);
       padding:30px;
       border-radius:15px;
-      box-shadow:0 10px 25px rgba(0,0,0,0.2);
+      box-shadow:0 10px 25px rgba(0, 0, 0, 0.87);
+      height: 750px;
     }
 
     h1{
       text-align:center;
       margin-bottom:20px;
-      color:#333;
+      color:#020202;
+      border: #000000c2 2px solid;
+      border-radius: 20px;
+      padding: 20px;
+      background-color: #ce6c3f;
+      margin-top: 30px;
     }
 
     .quote{
       font-size:22px;
       line-height:35px;
-      color:#444;
+      color:#000000;
       margin-bottom:20px;
       padding:15px;
-      background:#f4f4f4;
+      background:#d85a5a;
       border-radius:10px;
+      border: #000000c2 2px solid;
     }
 
     textarea{
       width:100%;
-      height:120px;
-      resize:none;
+      height: 250px;
+      resize: none;
       padding:15px;
-      font-size:18px;
-      border:2px solid #ccc;
+      font-size: 20px;
+      border:2px solid #000000;
       border-radius:10px;
       outline:none;
       margin-bottom:20px;
+      background-color: #d85858;
+    }
+    textarea::placeholder{
+      color:#252525;
     }
 
     textarea:focus{
-      border-color:#4facfe;
+      border-color:#000000;
     }
 
     .info{
@@ -66,7 +77,7 @@
       padding:15px;
       border:none;
       border-radius:10px;
-      background:#4facfe;
+      background:#203547;
       color:white;
       font-size:18px;
       cursor:pointer;
@@ -74,13 +85,13 @@
     }
 
     button:hover{
-      background:#0099ff;
+      background:#331d1d;
     }
 
     .result{
       margin-top:20px;
       text-align:center;
       font-size:22px;
-      color:#222;
+      color:#000000;
       font-weight:bold;
     }
